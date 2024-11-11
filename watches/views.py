@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
-def firstScream(request):
-    return render(request, "home.html")
-  main
+
+def homepage(request):
+    return render(request, 'home-view.html')
+
